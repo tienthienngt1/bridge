@@ -14,31 +14,30 @@ export default () => {
 					<div className="flex items-center dark:hidden">
 						<div className="flex sm:hidden">
 							<Image
-								src="/logos/logo.jpg"
+								src="/logos/logo-black.png"
 								width={32}
 								height={32}
 							/>
 						</div>
 						<div className="hidden sm:flex">
 							<Image
-								src="/logos/logo.jpg"
+								src="/logos/logo-black.png"
 								width={128}
 								height={32}
 							/>
 						</div>
-						<div>Ordinal Shibarium</div>
 					</div>
 					<div className="items-center hidden dark:flex">
 						<div className="flex sm:hidden">
 							<Image
-								src="/logos/logo.jpg"
+								src="/logos/logo-white.png"
 								width={32}
 								height={32}
 							/>
 						</div>
 						<div className="hidden sm:flex">
 							<Image
-								src="/logos/logo.jpg"
+								src="/logos/logo-white.png"
 								width={128}
 								height={32}
 							/>
