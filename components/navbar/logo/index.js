@@ -6,7 +6,6 @@ export default () => {
 			<a
 				title="Cross-Chain Bridge"
 				href={process.env.NEXT_PUBLIC_PROTOCOL_URL}
-				target="_blank"
 				rel="noopener noreferrer"
 				className="flex flex-col items-start w-full"
 			>
