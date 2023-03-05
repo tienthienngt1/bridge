@@ -98,7 +98,7 @@ export default ({ children }) => {
 							className="w-full bg-white main dark:bg-black"
 							style={{
 								minHeight: "calc(100vh - 44px)",
-								backgroundColor: "none",
+								background: "none",
 							}}
 						>
 							<Navbar />
