@@ -310,6 +310,9 @@ a {
 .bg-blue-500 {
 	background-color: orange;
 }
+.bg-blue-500:hover {
+	background-color: #c49952 !important;
+}
 .bg-blue-600 {
 	background-color: #c49952;
 }
