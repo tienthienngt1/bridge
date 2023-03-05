@@ -308,7 +308,7 @@ a {
 	}
 }
 .bg-blue-500 {
-	background-color: orange;
+	background-color: orange !important;
 }
 .bg-blue-500:hover {
 	background-color: #c49952 !important;
