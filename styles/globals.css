@@ -307,7 +307,9 @@ a {
 		}
 	}
 }
-
+button{
+    background-color: orange;
+}
 /* =============BACKGROUND STAR===================== */
 .bg-animation {
 	position: fixed;
