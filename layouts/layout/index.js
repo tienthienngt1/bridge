@@ -98,15 +98,18 @@ export default ({ children }) => {
 							className="w-full bg-white main dark:bg-black"
 							style={{
 								minHeight: "calc(100vh - 44px)",
-								backgroundColor:
-									theme === "light" ? "#ececec" : "#1a1919",
-								// backgroundImage: `url("/images/background${theme === 'light' ? '_white' : ''}.png")`,
-								// backgroundSize: 'cover',
+								backgroundColor: "none",
 							}}
 						>
 							<Navbar />
 							<div className="w-full px-2 sm:px-4">
 								{children}
+							</div>
+							<div className="bg-animation">
+								<div id="stars"></div>
+								<div id="stars2"></div>
+								<div id="stars3"></div>
+								<div id="stars4"></div>
 							</div>
 						</div>
 					</div>

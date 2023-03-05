@@ -317,6 +317,12 @@ a {
 	height: 100%;
 	z-index: -1;
 }
+.bg-white .bg-animation{
+    background: white;
+}
+.bg-dark .bg-animation{
+    background: black;
+}
 
 #stars {
 	width: 3px;
