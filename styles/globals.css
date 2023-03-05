@@ -307,8 +307,11 @@ a {
 		}
 	}
 }
-button{
-    background-color: orange;
+.bg-blue-500 {
+	background-color: orange;
+}
+.bg-blue-600 {
+	background-color: #c49952;
 }
 /* =============BACKGROUND STAR===================== */
 .bg-animation {
