@@ -105,13 +105,13 @@ export default ({ children }) => {
 							<div className="w-full px-2 sm:px-4">
 								{children}
 							</div>
-							<div className="bg-animation">
-								<div id="stars"></div>
-								<div id="stars2"></div>
-								<div id="stars3"></div>
-								<div id="stars4"></div>
-							</div>
 						</div>
+					</div>
+					<div className="bg-animation">
+						<div id="stars"></div>
+						<div id="stars2"></div>
+						<div id="stars3"></div>
+						<div id="stars4"></div>
 					</div>
 				</div>
 			</PageVisibility>

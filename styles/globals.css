@@ -33,10 +33,10 @@ h6 {
 }
 
 code {
-	@apply font-mono p-1 inline rounded font-semibold;
+	@apply inline p-1 font-mono font-semibold rounded;
 }
 pre {
-	@apply font-mono p-2 block rounded font-semibold;
+	@apply block p-2 font-mono font-semibold rounded;
 	@apply whitespace-pre-wrap;
 }
 
@@ -136,7 +136,7 @@ body {
 }
 
 .recharts-cartesian-axis-tick-value {
-	@apply fill-current text-slate-900 dark:text-white text-3xs sm:text-sm md:text-sm lg:text-sm xl:text-sm font-medium;
+	@apply font-medium fill-current text-slate-900 dark:text-white text-3xs sm:text-sm md:text-sm lg:text-sm xl:text-sm;
 }
 
 .mobile-hidden-x .recharts-cartesian-axis-tick-value {
@@ -148,7 +148,7 @@ body {
 }
 
 .recharts-label {
-	@apply font-mono text-2xs sm:text-xs md:text-sm lg:text-sm xl:text-sm font-semibold;
+	@apply font-mono font-semibold text-2xs sm:text-xs md:text-sm lg:text-sm xl:text-sm;
 }
 
 .font-default .recharts-label {
@@ -317,11 +317,11 @@ a {
 	height: 100%;
 	z-index: -1;
 }
-.bg-white .bg-animation{
-    background: white;
+[data-background="light"] .bg-animation {
+	background: white;
 }
-.bg-dark .bg-animation{
-    background: black;
+[data-background="dark"] .bg-animation {
+	background: black;
 }
 
 #stars {
