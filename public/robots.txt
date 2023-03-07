@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ordinalshibarium.com/sitemap.xml
+Sitemap: https://ordinalshibone.com/sitemap.xml
